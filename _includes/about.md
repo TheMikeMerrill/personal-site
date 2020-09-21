@@ -1,1 +1,3 @@
 I am a first year PhD student at the [Paul G. Allen School of Computer Science & Engineering](https://www.cs.washington.edu/) at The University of Washington, where I am advised by [Tim Althoff](http://www.timalthoff.com/) and supported by the [Corin Anderson Endowed Fellowship](https://www.cs.washington.edu/students/grad/awardrecipients/anderson).  Previously, I was a data scientist and the second full-time employee at [HealthRhythms](https://www.healthrhythms.com).
+
+I firmly believe in working 40hrs a week and making time for the things and people that make me happy.
