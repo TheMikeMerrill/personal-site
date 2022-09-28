@@ -5,8 +5,8 @@ key: merrill2021multiverse
 pdf_path: resources/pubpdfs/merrill2021multiverse.pdf
 shorttitle: '{CrossCheck}'
 thumb_path: resources/thumbnails/merrill2021multiverse.png
-title: '  Multiverse: Mining collective data science knowledge from code on the web
-  to suggest alternative analysis approaches'
+title: '  MULTIVERSE: Mining Collective Data Science Knowledge from Code on the Web
+  to Suggest Alternative Analysis Approaches'
 urldate: '2020-06-25'
 venue: KDD
 year: '  2021'
