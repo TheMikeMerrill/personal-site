@@ -91,12 +91,12 @@
                 {% assign sorted_pubs = site.publications | sort: 'year' | reverse %} 
                 {% for pub in sorted_pubs %}
                 <div class="row">
-                    <div class="col-md-2 hide-on-small">
+                    <div class="col-md-3 hide-on-small">
                         {% if pub.thumb_path %}
                         <img src="{{pub.thumb_path}}" alt="..." class="img-thumbnail"> {% endif %}
 
                     </div>
-                    <div class="col-md-10">
+                    <div class="col-md-9">
                         <p><b>{{pub.title}}</b></p>
                         <p>
                             {% if pub.author contains "Michael Merrill" %} {% assign a = pub.author | split: 'Michael Merrill' %} {{a[0]}}
@@ -139,6 +139,7 @@
                             {% if pub.pdf_path %}
                                 <a href="{{pub.pdf_path}}">[PDF]</a> 
                             {% endif %}
+                            {{pub.notes}}
                         </p>
                     </div>
 
