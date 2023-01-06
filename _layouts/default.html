@@ -130,9 +130,13 @@
                             {% if pub.author contains "Michael Merrill" %} 
                                 {% assign a = pub.author | split: 'Michael Merrill' %} 
                                 {{a[0]}}<b>Michael Merrill</b>{{a[1]}} 
+                            {% elsif pub.author contains "Mike A. Merrill*" %} 
+                                {% assign a = pub.author | split: 'Mike A. Merrill' %} 
+                                {{a[0]}}<b>Mike A. Merrill*</b>{{a[1]}} 
                             {% elsif pub.author contains "Mike A. Merrill" %} 
                                 {% assign a = pub.author | split: 'Mike A. Merrill' %} 
                                 {{a[0]}}<b>Mike A. Merrill</b>{{a[1]}} 
+
                             {% endif %}
                         </p>
                         <p>{{pub.venue}}, {{pub.year}} 
