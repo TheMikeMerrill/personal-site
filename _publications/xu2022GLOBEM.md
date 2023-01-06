@@ -4,7 +4,7 @@ author: Xuhai Xu, Han Zhang, Yasaman Sefidgar, Yiyi Ren, Xin Liu, Woosuk Seo, Je
   E. Morris, Eve Riskin, Jennifer Mankoff, and Anind K. Dey
 copyright: Creative Commons Attribution 4.0 International
 doi: 10.48550/ARXIV.2211.02733
-journal: NeurIPS
+venue: NeurIPS
 key: xu2022GLOBEM
 keywords: 'Machine Learning (cs.LG), Artificial Intelligence (cs.AI), Human-Computer
   Interaction (cs.HC), FOS: Computer and information sciences, FOS: Computer and information
