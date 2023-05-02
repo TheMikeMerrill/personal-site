@@ -1,3 +1,5 @@
 *.pyc
-/.jekyll-cache/*
-/.jekyll-cache/*
+.jekyll-cache/
+.jekyll-cache/*
+_site/*
+.gitignore
