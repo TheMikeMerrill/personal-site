@@ -21,7 +21,7 @@ langid: english
 pdf_path: resources/pubpdfs/merrillHomekit2020BenchmarkTime2023.pdf
 shortjournal: CHIL
 venue: CHIL
-year: 2023
+year: " 2023"
 thumb_path: resources/thumbnails/merrillHomekit2020BenchmarkTime2023.png
 title: '  Homekit2020: A Benchmark for Time Series Classification on a Large Mobile
   Sensing Dataset with Laboratory Tested Ground Truth of Influenza Infections'
