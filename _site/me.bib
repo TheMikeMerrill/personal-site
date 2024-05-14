@@ -89,9 +89,34 @@
 }
 
 
+
+
+@article{zhang2022coral,
+	Author = {Zhang, Ge and Merrill, Mike A. and Liu, Yang and Heer, Jeffrey and Althoff, Tim},
+	venue = {EPJ Data Science},
+	Number = {1},
+	Pages = {14},
+	Title = {{CORAL: COde RepresentAtion Learning with Weakly-Supervised Transformers for Analyzing Data Analysis}},
+	Volume = {11},
+    notes = {*Co-First Author},
+	Year = {2022}}
+
+
+@misc{merrill2022selfsupervised,
+  doi = {10.48550/ARXIV.2205.13607},
+  url = {https://arxiv.org/abs/2205.13607},
+  author = {Merrill, Mike A. and Althoff, Tim},
+  keywords = {Machine Learning (cs.LG), Human-Computer Interaction (cs.HC), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {{Self-supervised Pretraining and Transfer Learning Enable Flu and COVID-19 Predictions in Small Mobile Sensing Datasets}},
+  publisher = {arXiv},
+  journal = {CHIL},
+  year = {2023},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+
 @article{merrill2021multiverse,
-	title = {MULTIVERSE: Mining Collective Data Science Knowledge from
-	Code on the Web to Suggest Alternative Analysis Approaches},
+	title = {{MULTIVERSE: Mining Collective Data Science Knowledge from
+	Code on the Web to Suggest Alternative Analysis Approaches}},
 	shorttitle = {{CrossCheck}},
 	journal = {KDD},
 	urldate = {2020-06-25},
@@ -101,3 +126,46 @@
 }
 
 
+@misc{xu2022GLOBEM,
+  doi = {10.48550/ARXIV.2211.02733},
+  
+  url = {https://arxiv.org/abs/2211.02733},
+  
+  author = {Xu, Xuhai and Zhang, Han and Sefidgar, Yasaman and Ren, Yiyi and Liu, Xin and Seo, Woosuk and Brown, Jennifer and Kuehn, Kevin and Merrill, {Mike A.} and Nurius, Paula and Patel, Shwetak and Althoff, Tim and Morris, Margaret E. and Riskin, Eve and Mankoff, Jennifer and Dey, Anind K.},
+  
+  keywords = {Machine Learning (cs.LG), Artificial Intelligence (cs.AI), Human-Computer Interaction (cs.HC), FOS: Computer and information sciences, FOS: Computer and information sciences, I.2.1; E.m, 68T09},
+  
+  title = {GLOBEM Dataset: Multi-Year Datasets for Longitudinal Human Behavior Modeling Generalization},
+  
+  publisher = {arXiv},
+  journal={NeurIPS},
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+
+@article{merrillHomekit2020BenchmarkTime2023,
+  title = {Homekit2020: {{A Benchmark}} for {{Time Series Classification}} on a {{Large Mobile Sensing Dataset}} with {{Laboratory Tested Ground Truth}} of {{Influenza Infections}}},
+  author = {Merrill, Mike A and Safranchik, Esteban and Kolbeinsson, Arinbjorn and Gade, Piyusha and Ramirez, Ernesto and Schmidt, Ludwig and Foshchini, Luca and Althoff, Tim},
+  date = {2023-03-26},
+  journaltitle = {Conference on Health, Inference, and Learning},
+  shortjournal = {CHIL},
+  abstract = {Despite increased interest in wearables as tools for detecting various health conditions, there are not as of yet any large public benchmarks for such mobile sensing data. The few datasets that are available do not contain data from more than dozens of individuals, do not contain high-resolution raw data or do not include dataloaders for easy integration into machine learning pipelines. Here, we present Homekit2020: the first large-scale public benchmark for time series classification of wearable sensor data. Our dataset contains over 14 million hours of minute-level multimodal FitBit data, symptom reports, and ground-truth laboratory PCR influenza test results, along with an evaluation framework that mimics realistic model deployments and efficiently characterizes statistical uncertainty in model selection in the presence of extreme class imbalance. Furthermore, we implement and evaluate nine neural and non-neural time series classification models on our benchmark across 450 total training runs in order to establish state of the art performance.},
+  langid = {english},
+}
+
+@online{merrillLanguageModelsStill2024,
+  title = {Language {{Models Still Struggle}} to {{Zero-shot Reason}} about {{Time Series}}},
+  author = {Merrill, Mike A. and Tan, Mingtian and Gupta, Vinayak and Hartvigsen, Tom and Althoff, Tim},
+  date = {2024-04-17},
+  eprint = {2404.11757},
+  eprinttype = {arxiv},
+  eprintclass = {cs},
+  url = {http://arxiv.org/abs/2404.11757},
+  urldate = {2024-05-14},
+  abstract = {Time series are critical for decision-making in fields like finance and healthcare. Their importance has driven a recent influx of works passing time series into language models, leading to non-trivial forecasting on some datasets. But it remains unknown whether non-trivial forecasting implies that language models can reason about time series. To address this gap, we generate a first-of-its-kind evaluation framework for time series reasoning, including formal tasks and a corresponding dataset of multi-scale time series paired with text captions across ten domains. Using these data, we probe whether language models achieve three forms of reasoning: (1) Etiological Reasoning—given an input time series, can the language model identify the scenario that most likely created it? (2) Question Answering—can a language model answer factual questions about time series? (3) Context-Aided Forecasting—does highly relevant textual context improve a language model’s time series forecasts? We find that otherwise highly-capable language models demonstrate surprisingly limited time series reasoning: they score marginally above random on etiological and question answering tasks (up to 30 percentage points worse than humans) and show modest success in using context to improve forecasting. These weakness showcase that time series reasoning is an impactful, yet deeply underdeveloped direction for language model research. We also make our datasets and code public at to support further research in this direction at https://github.com/behavioral-data/TSandLanguage.},
+  langid = {english},
+  pubstate = {preprint},
+  keywords = {Computer Science - Computation and Language},
+  file = {/Users/michaelmerrill/Zotero/storage/DC4WMC7Y/Merrill et al. - 2024 - Language Models Still Struggle to Zero-shot Reason.pdf}
+}
