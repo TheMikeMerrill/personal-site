@@ -12,7 +12,7 @@ abstract: 'Despite increased interest in wearables as tools for detecting variou
   presence of extreme class imbalance. Furthermore, we implement and evaluate nine
   neural and non-neural time series classification models on our benchmark across
   450 total training runs in order to establish state of the art performance.'
-author: Mike A Merrill, Esteban Safranchik, Arinbjorn Kolbeinsson, Piyusha Gade, Ernesto
+author: Mike A. Merrill, Esteban Safranchik, Arinbjorn Kolbeinsson, Piyusha Gade, Ernesto
   Ramirez, Ludwig Schmidt, Luca Foshchini, and Tim Althoff
 date: '2023-03-26'
 journaltitle: Conference on Health, Inference, and Learning
