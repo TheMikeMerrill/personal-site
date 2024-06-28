@@ -69,8 +69,10 @@ with open('me.bib') as bibtex_file:
         else:
             collection = "_publications"
         out_dest = "{collection}/{ent.key}.md".format(collection=collection, ent=ent)
-        out_file = open(out_dest, "w")
-        out_file.write("---\n")
-        yaml.dump(cleaned, out_file, allow_unicode=True)
-        out_file.write("---")
-        out_file.close()       
+        
+        if not path.exists(out_dest):
+            out_file = open(out_dest, "w")
+            out_file.write("---\n")
+            yaml.dump(cleaned, out_file, allow_unicode=True)
+            out_file.write("---")
+            out_file.close()       
