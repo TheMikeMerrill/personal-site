@@ -4,4 +4,6 @@
 _site/*
 .gitignore
 biblib/__pycache__/
+Gemfile.lock
+.DS_Store
 
