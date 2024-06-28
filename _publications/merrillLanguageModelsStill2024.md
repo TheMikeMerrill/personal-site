@@ -35,4 +35,7 @@ url: http://arxiv.org/abs/2404.11757
 urldate: '2024-05-14'
 venue: Preprint
 year: '2024'
+other_links:
+  - name: Data & Code
+    url: https://github.com/behavioral-data/TSandLanguage
 ---

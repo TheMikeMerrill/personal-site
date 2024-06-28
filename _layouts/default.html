@@ -113,6 +113,9 @@
                         </p>
                         <p>{{pub.venue}}, {{pub.year}} {% if pub.pdf_path %}
                             <a href="{{pub.pdf_path}}">[PDF]</a> {% endif %}
+                            {% for link in pub.other_links %}
+                            <a href="{{link.url}}">[{{link.name}}]</a> 
+                            {% endfor %}
                             {{pub.notes}}
                         </p>
                     </div>

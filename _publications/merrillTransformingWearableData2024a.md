@@ -39,4 +39,7 @@ title: '  Transforming Wearable Data into Health Insights using Large Language M
   Agents'
 url: http://arxiv.org/abs/2406.06464
 urldate: '2024-06-28'
+other_links:
+  - name: Google Research Blog
+    url: https://research.google/blog/advancing-personal-health-and-wellness-insights-with-ai/
 ---
