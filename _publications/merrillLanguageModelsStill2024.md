@@ -33,7 +33,7 @@ thumb_path: resources/thumbnails/merrillLanguageModelsStill2024.png
 title: '  Language Models Still Struggle to Zero-shot Reason about Time Series'
 url: http://arxiv.org/abs/2404.11757
 urldate: '2024-05-14'
-venue: Preprint
+venue: EMNLP
 year: '2024'
 other_links:
   - name: Data & Code
