@@ -14,7 +14,7 @@ date: '2024-06-21'
 year: '2024'
 eprint: '2406.16964'
 eprintclass: cs,
-venue: Preprint
+venue: NeurIPS [Spotlight 🔎]
 eprinttype: arxiv
 file: /Users/michaelmerrill/Zotero/storage/VN62QUH7/Tan et al. - 2024 - Are Language
   Models Actually Useful for Time Serie.pdf
