@@ -80,6 +80,9 @@ h2{
     padding-bottom: 10px
 }
 
+.venue{
+    text-decoration: underline;
+}
 .author{
     font-weight:900;
 }
