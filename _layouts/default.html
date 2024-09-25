@@ -126,41 +126,6 @@
             
         </div>
 
-
-        <div class="row">
-            <div class="col-md-12">
-                <h2>Posters</h2>
-                {% assign sorted_posters = site.posters | sort: 'year' | reverse %} 
-                {% for pub in sorted_posters %}
-                <div class="row">
-                    <div class="col-md-2 hide-on-small">&nbsp;</div>
-                    <div class="col-md-10">
-                        <p><b>{{pub.title}}</b></p>
-                        <p>
-                            {% if pub.author contains "Michael Merrill" %} 
-                                {% assign a = pub.author | split: 'Michael Merrill' %} 
-                                {{a[0]}}<span class="author">Michael Merrill</span>{{a[1]}} 
-                            {% elsif pub.author contains "Mike A. Merrill*" %} 
-                                {% assign a = pub.author | split: 'Mike A. Merrill' %} 
-                                {{a[0]}}<span class="author">Mike A. Merrill*</span>{{a[1]}} 
-                            {% elsif pub.author contains "Mike A. Merrill" %} 
-                                {% assign a = pub.author | split: 'Mike A. Merrill' %} 
-                                {{a[0]}}<span class="author">Mike A. Merrill</span>{{a[1]}} 
-
-                            {% endif %}
-                        </p>
-                        <p>{{pub.venue}}, {{pub.year}} 
-                            {% if pub.pdf_path %}
-                                <a href="{{pub.pdf_path}}">[PDF]</a> 
-                            {% endif %}
-                            {{pub.notes}}
-                        </p>
-                    </div>
-
-                </div>
-                {% endfor %}
-            </div>
-        </div>
     </div>
 
     <script src="js/jquery.min.js"></script>
