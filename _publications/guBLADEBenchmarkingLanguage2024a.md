@@ -39,4 +39,7 @@ thumb_path: resources/thumbnails/guBLADEBenchmarkingLanguage2024a.png
 title: '  BLADE: Benchmarking Language Model Agents for Data-Driven Science'
 url: http://arxiv.org/abs/2408.09667
 urldate: '2024-09-30'
+other_links:
+  - name: Data & Code
+    url: https://github.com/behavioral-data/BLADE
 ---
