@@ -1,4 +1,4 @@
-- Email: mikeam@cs.washington.edu
+- Email: mikeam@cs.stanford.edu
 - [📚 Google Scholar](https://scholar.google.com/citations?hl=en&user=UtBcznsAAAAJ)
 - [🐦 Twitter](https://twitter.com/Mike_A_Merrill)
 - [🎓 CV](./resources/Mike_Merrill_CV.pdf)
